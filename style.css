@@ -39,4 +39,21 @@ body{
     font-family: cursive;
     border-top:dotted;
     border-color:darkgray;
+    position:relative;
+}
+
+.list li .fa-trash{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.list li .fa-square-check{
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
