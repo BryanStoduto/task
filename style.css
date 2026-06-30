@@ -57,3 +57,12 @@ body{
     transform: translateY(-50%);
     cursor: pointer;
 }
+
+.list li.checked{
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+.list li.checked .fa-square-check{
+    color: darkgray;
+}
