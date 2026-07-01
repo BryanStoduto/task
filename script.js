@@ -18,4 +18,13 @@ function toDoList(){
     liEl.innerText = newTask;
     ulEl.appendChild(liEl)
 
+    inputEl.value = ""
+    const checkBtnEl = document.createElement("div")
+    checkBtnEl.innerHTML = `<i class="fa-solid fa-square-check">`;
+    liEl.appendChild(checkBtnEl);
+    const trashBtnEl = document.createElement("div")
+    trashBtnEl.innerHTML = `<i class="fa-solid fa-trash">`;
+    liEl.appendChild(trashBtnEl);
+
 }
+
